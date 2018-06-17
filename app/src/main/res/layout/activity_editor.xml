@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:text="@string/label_preco" />
+
+        <EditText
+            android:id="@+id/product_name"
+            style="@style/EditTextNameStyle"
+            android:hint="@string/hint_produto" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:text="@string/label_quantidade" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <EditText
+                android:id="@+id/quantity"
+                style="@style/EditTextQuantityStyle"
+                android:hint="@string/hint_estoque" />
+
+            <Button
+                android:id="@+id/decrease_button"
+                style="@style/IncreaseDecreaseButton"
+                android:layout_toStartOf="@id/addition_button"
+                android:text="@string/hint_decrease" />
+
+            <Button
+                android:id="@+id/addition_button"
+                style="@style/IncreaseDecreaseButton"
+                android:layout_alignParentEnd="true"
+                android:text="@string/hint_increase" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:text="@string/label_categoria" />
+
+        <Spinner
+            android:id="@+id/cat_spinner"
+            style="@style/SpinnerStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:text="@string/label_preco" />
+
+        <EditText
+            android:id="@+id/price"
+            style="@style/EditTextPriceStyle"
+            android:hint="@string/hint_preco" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:paddingTop="16dp"
+            android:text="@string/label_fornecedor" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/provider_name"
+                style="@style/EditTextProviderNameStyle"
+                android:hint="@string/hint_fornecedor" />
+
+            <EditText
+                android:id="@+id/provider_phone"
+                style="@style/EditTextProviderPhoneStyle"
+                android:layout_below="@id/provider_name"
+                android:hint="@string/hint_fornecedor_contato" />
+
+            <ImageView
+                android:id="@+id/call"
+                style="@style/CallButtonStyle"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/provider_name"
+                android:contentDescription="@string/call_button"
+                android:src="@drawable/ic_call" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="editTextMarginBottom">8dp</dimen>
+    <dimen name="callButton">40dp</dimen>
+    <dimen name="increaseDecreaseButton">40dp</dimen>
+</resources>

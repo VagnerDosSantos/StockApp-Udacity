@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/descricao_produto"
+            style="@style/list_style"
+            tools:text="@string/tools_product_name" />
+
+        <TextView
+            android:id="@+id/preco"
+            style="@style/list_style2"
+            android:layout_below="@id/descricao_produto"
+            android:layout_marginEnd="8dp"
+            android:text="@string/label_preco_list" />
+
+        <TextView
+            android:id="@+id/preco_produto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/descricao_produto"
+            android:layout_toEndOf="@id/preco"
+            android:fontFamily="sans-serif-medium"
+            tools:text="143.40" />
+
+        <TextView
+            android:id="@+id/estoque"
+            style="@style/list_style2"
+            android:layout_below="@id/preco"
+            android:layout_marginEnd="8dp"
+            android:text="@string/label_estoque_list" />
+
+        <TextView
+            android:id="@+id/estoque_produto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/preco"
+            android:layout_toEndOf="@id/estoque"
+            tools:text="231" />
+
+        <ImageView
+            android:id="@+id/cart"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            android:src="@drawable/ic_action_cart" />
+    </RelativeLayout>
+
+</LinearLayout>

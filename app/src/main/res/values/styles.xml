@@ -1,0 +1,85 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Label Style -->
+    <style name="LabelStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- EditText Styles -->
+    <style name="EditTextNameStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:inputType">textCapWords</item>
+    </style>
+
+    <style name="EditTextProviderNameStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/editTextMarginBottom</item>
+        <item name="android:inputType">textCapWords</item>
+    </style>
+
+    <style name="EditTextProviderPhoneStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">phone</item>
+
+    </style>
+
+    <style name="EditTextQuantityStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="EditTextPriceStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+    <style name="IncreaseDecreaseButton">
+        <item name="android:layout_width">@dimen/increaseDecreaseButton</item>
+        <item name="android:layout_height">@dimen/increaseDecreaseButton</item>
+    </style>
+
+    <style name="CallButtonStyle">
+        <item name="android:layout_width">@dimen/callButton</item>
+        <item name="android:layout_height">@dimen/callButton</item>
+    </style>
+
+    <style name="SpinnerStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+
+    <!-- List Product Style -->
+    <style name="list_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="list_style2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

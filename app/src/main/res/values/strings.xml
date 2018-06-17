@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">StockApp</string>
+    <string name="tools_title">Não há produtos cadastrados</string>
+    <string name="action_insert_product">Cadastrar Produtos</string>
+    <string name="cadastro_produtos_title">Cadastro de Produtos</string>
+    <string name="editar_produtos_title">Editar Produto</string>
+
+    <!-- Array Categoria Spinner -->
+    <string name="cat_diversos">Diversos</string>
+    <string name="cat_eletronicos">Eletrônicos</string>
+    <string name="cat_automoveis">Automóveis</string>
+    <string name="cat_beleza">Beleza</string>
+    <string name="cat_telefonia">Telefonia</string>
+
+    <!-- AlertBuilder -->
+    <string name="descartar_mudancas">Descartar todas as alterações e sair?</string>
+    <string name="descartar">Descartar</string>
+    <string name="continuar_editando">Continuar</string>
+
+    <string name="deletar_produto">Deseja deletar este produto?</string>
+    <string name="deletar">Deletar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <string name="alert_preencha_nome_produto">Preencha o nome do Produto</string>
+    <string name="alert_informar_preco">Informe o preço de venda</string>
+    <string name="alert_produto_sem_estoque">O produto está fora de estoque</string>
+    <string name="sem_estoque">Fora de estoque</string>
+
+    <!-- EditorActivity Labels -->
+    <string name="label_produto">Produto</string>
+    <string name="label_preco">Preço</string>
+    <string name="label_quantidade">Quantidade</string>
+    <string name="label_categoria">Categoria</string>
+    <string name="label_fornecedor">Fornecedor</string>
+
+    <!-- EditText Hint -->
+    <string name="hint_produto">Nome do Produto</string>
+    <string name="hint_estoque">Quantidade em Estoque</string>
+    <string name="hint_increase">+</string>
+    <string name="hint_decrease">-</string>
+    <string name="hint_preco">Preço de Venda</string>
+    <string name="hint_fornecedor">Nome do Fornecedor</string>
+    <string name="hint_fornecedor_contato">Telefone de Contato</string>
+    <string name="call_button">Ligar para o fornecedor</string>
+    <string name="produto_atualizado">Produto atualizado com sucesso</string>
+    <string name="produto_salvo">Produto salvo com sucesso</string>
+    <string name="tools_product_name">Controle Dualshock 3 Ps3</string>
+    <string name="label_estoque_list">Estoque:</string>
+    <string name="label_preco_list">Preço:</string>
+</resources>

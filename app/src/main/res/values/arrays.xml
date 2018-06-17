@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="array_cat_options">
+        <item>@string/cat_diversos</item>
+        <item>@string/cat_eletronicos</item>
+        <item>@string/cat_automoveis</item>
+        <item>@string/cat_beleza</item>
+        <item>@string/cat_telefonia</item>
+    </string-array>
+</resources>
